@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #b4b2aa;
+  txt: #000;
+}
+
+.watch-body {
+  background-color: black;
+  width: 250px;
+  height: 250px;
+  border-style: solid;
+  border-color: #000;
+  border-width: 10px;
+}
+
+#timer-window {
+  background-color: #b4b2aa;
+}
+
+#timer-label {
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+#time-left {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+#break-and-session-window, #break-label, #session-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+#break-label, #break-length {
+  padding-left: 5px;
+}
+
+#session-buttons, #break-buttons {
+  color: #fff;
+}
+
+#session-label {
+  padding-right: 5px;
+}
+
+#session-time {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#session-length {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+#break-length {
+  font-size: 15px;
+}
+
+.Button {
+  background-color: #474747;
+  color: #fff;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
